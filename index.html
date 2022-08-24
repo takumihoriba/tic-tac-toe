@@ -65,13 +65,13 @@
 MARKS = {0: 'X', 1: 'O'}
   
 def update_cells(state):
-  for i, value in enumerate(state):
-    Element(f"x{i}").add_class("hidden")
-    Element(f"o{i}").add_class("hidden")
-    if value == 0:
-      Element(f"x{i}").remove_class("hidden")
-    elif value == 1:
-      Element(f"o{i}").remove_class("hidden")
+    for i, value in enumerate(state):
+        Element(f"x{i}").add_class("hidden")
+        Element(f"o{i}").add_class("hidden")
+        if value == 0:
+            Element(f"x{i}").remove_class("hidden")
+        elif value == 1:
+            Element(f"o{i}").remove_class("hidden")
 
 def display_message(value):
     Element("message").write(value)
