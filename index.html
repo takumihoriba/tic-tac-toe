@@ -60,7 +60,7 @@
       <button class="hidden" id="reset" pys-onclick="lambda e: reset()">Play again</button>
     </div>
     
-  </body>
+  
 <py-script>
 MARKS = {0: 'X', 1: 'O'}
   
@@ -240,4 +240,5 @@ def reset():
 def cell_click(idx):
   game_manager.human_play(idx)
 </py-script>
+  </body>
 </html>
