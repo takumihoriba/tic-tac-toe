@@ -33,11 +33,11 @@ button{
 }
 
 .x{
-  color: forestgreen;
+  color: rgb(237, 62, 196);
 }
 
 .o{
-  color: crimson;
+  color: rgb(45, 246, 250);
 }
 
 .hidden{
